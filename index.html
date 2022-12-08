@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <script>setTimeout(() => { alert('Game Finished') }, 13000)</script>
+</head>
+<body>
+    <header>
+        <div class ="scores">
+            <div class="livescores">
+                <h1>Live Scores</h1>
+            </div>
+            <div class="listscores">
+                <ul>
+                    <li>SCJ Ninjas - 314</li>
+                    <li>NS Pirates - 159</li>
+                </ul>
+                <ul>
+                    <li>CHI Samurai - 0</li>
+                    <li>TUL Wizards - 0</li>
+                </ul>
+                <ul>
+                    <li>BOS Hackers - 13</li>
+                    <li>Tyo Youkai - 37</li>
+                </ul>
+                <ul>
+                    <li>BOI Knights - 5</li>
+                    <li>SEA Sea Lions - 11</li>
+                </ul>
+            </div>
+
+        </div>
+        <nav class="navbar">
+            <div id="title">
+                DSNN
+            </div>
+            <div class="links"> 
+                <ul class="list">
+                    <li>Football</li>
+                    <li>Basketball</li>
+                    <li>Baseball</li>
+                    <li>Soccer</li>
+                    <li>More...</li>
+                </ul>  
+            </div>
+            <div class="images">
+                <img src="1614782208__dsnn/dsnn/assets/search-light.png" alt="search-light">
+                <img src="1614782208__dsnn/dsnn/assets/hamburger-light.png" alt="hamburger-light">
+                <img src="1614782208__dsnn/dsnn/assets/user-circle-light.png" alt="user-circle-light">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="box1">
+            <div class="box1a">
+                <div id="box1a1">
+                    <h1>Top Stories</h1>
+                </div>
+                <div id="box1a2"></div>
+                <div id="box1a3">
+                    <ul>
+                        <li>Ninja up big in 5th</li>
+                        <li>Best sports cities</li>
+                        <li>Choi joins Hall of Fame</li>
+                        <li>Tournament underway</li>
+                        <li>Samurai at Wizards...</li>  
+                    </ul>
+                </div>
+            </div>
+            <div class="box1b">
+                <div id="box1b1"><h2>Customize your DSNN</h2></div>
+                <div id="box1b2">
+                    <button class="btn1">Sign In</button>
+                    <button class="btn2">Sign Up</button>
+                </div>
+            </div>
+            <div id = "box1c" class="box1c">
+                <div id="box1c1"><h2>Never Miss a Play</h2></div>
+                <div id="box1c2">
+                    <button  id = "btn3" onClick="reset()" class="btn3">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="box2a">
+                <div class="box2a1">
+                    <div id="dot"></div>
+                    <div><h1>Live</h1></div>
+                </div>
+                <div class="box2a2"><h1>Ninjas Leading Pirates</h1></div>
+            </div>
+            <div class="box2b">
+                <div id="box2b1">
+                    <img src="1614782208__dsnn/dsnn/assets/sjc-ninjas.png" alt="ninjas">
+                    <div class="teamname1">
+                        <h3>San Jose</h3>
+                        <h1>Ninjas</h1>
+                        <h3>(10W - 3L)</h3>
+                    </div>
+                    <div class="score1">
+                        <button type="button" id="clicks"  onClick="onClick()"> 314</button>
+                                    
+                    </div>
+                </div>
+                <div id="box2b2">
+                    <div class="vs"><h1>VS</h1></div>
+                    <div class="time">
+                        <h4> 0:13 remaning</h4>
+                        <h4>5th period</h4>
+                    </div>
+                </div>
+                <div id="box2b3">
+                    <img src="1614782208__dsnn/dsnn/assets/ns-pirates.png" alt="pirates">
+                    <div class="teamname2">
+                        <h3>Nova Scotia</h3>
+                        <h1>Pirates</h1>
+                        <h3>(12W - 2L)</h3>
+                    </div>
+                    <div class="score2">
+                        <button type="button" id="clicks2" onClick="onClick2()">159</button>
+                    </div>
+                </div>
+                </div>
+                <div class="box2c"></div>
+                <div class="box2d">
+                    <p>A conservative match between the two top-performing sides in the Central</p>
+                    <p> League Division with a number 1 seed at stake... <a href="">get live updates</a></p>
+                    
+                </div>
+            </div>
+        
+    </main>
+    
+
+</body>
+</html>
